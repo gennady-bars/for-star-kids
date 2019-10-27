@@ -39,6 +39,10 @@ header .navbar-brand{
 	padding-left: 20px;
 }
 
+#brand_name {
+	font-family: "Satisfy", cursive;
+}
+
 #lash_link, #nail_link {
 	height: 1rem;
 	position: relative;
