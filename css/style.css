@@ -31,19 +31,23 @@ padding-top: 100px;
 }
 
 header .navbar-light{
-	background-color: #fff;
+	background-color: #ffe4d8;
 }
 header .navbar-brand{
-	font-family: "Satisfy", cursive;
+	font-family: 'Indie Flower', cursive;
 	font-size: 40px;
-	color: #000;
+	color: pink;
 	padding-left: 20px;
 }
 
+#main-brand {
+	color: goldenrod;
+}
+
 #brand_name {
-	font-family: "Satisfy", cursive;
+	font-family: 'Indie Flower', cursive;
 	font-size: 28px;
-	color: black;
+	color: goldenrod;
 }
 
 #lash_link, #nail_link {
