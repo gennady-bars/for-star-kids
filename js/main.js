@@ -28,66 +28,19 @@ function loadMore() {
 	// 		btn.attr('disabled', false);
 	// 	}
 	// });
-	let block = $(`<section class="grid-posts">
-	<div class="container">
-	  <div class="row">
-		<div class="col-md-6">
-		  <div class="card">
-			<img src="img/dress${++count}.jpg"  alt="..." />
-			<div class="card-body">
-			  <h3 class="post-category">Какое-то название</h3>
-			  <h5 class="post-title"> еще что-то</h5>
-			  <p class="card-text">
-				описание чего-то
-  
-			  </p>
-			</div>
-		  </div>
-		</div>
-		<div class="col-md-6">
-		  <div class="card">
-			<img src="img/dress${++count}.jpg"  alt="..." />
-			<div class="card-body">
-			  <h3 class="post-category">Какое-то название</h3>
-			  <h5 class="post-title"> еще что-то</h5>
-			  <p class="card-text">
-				описание чего-то
-  
-			  </p>
-			</div>
-		  </div>
-		</div>
-  
-		<div class="col-md-6">
-		  <div class="card">
-			<img src="img/dress${++count}.jpg"  alt="..." />
-			<div class="card-body">
-			  <h3 class="post-category">Какое-то название</h3>
-			  <h5 class="post-title"> еще что-то</h5>
-			  <p class="card-text">
-				описание чего-то
-  
-			  </p>
-			</div>
-		  </div>
-		</div>
-		<div class="col-md-6">
-		  <div class="card">
-			<img src="img/dress${++count}.jpg"  alt="..." />
-			<div class="card-body">
-			  <h3 class="post-category">Какое-то название</h3>
-			  <h5 class="post-title"> еще что-то</h5>
-			  <p class="card-text">
-				описание чего-то
-  
-			  </p>
-			</div>
-		  </div>
-		</div>
-		
+	let block = Array(12).fill(0).map(x => count < limit? `<div class="col-md-4 col-lg-3 col-sm-6">
+	<div class="card">
+	  <img src="img/dress${++count}.jpg"  alt="..." />
+	  <div class="card-body">
+		<h3 class="post-category">Какое-то название</h3>
+		<h5 class="post-title"> еще что-то</h5>
+		<p class="card-text">
+		  описание чего-то
+
+		</p>
 	  </div>
 	</div>
-  </section>`);
+  </div>`:'');
   
   $('#load-more').append(block);
 
