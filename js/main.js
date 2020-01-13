@@ -56,3 +56,11 @@ function loadMore() {
 		loadMore();
   	}
   });
+
+  function showMobile() {
+	  $('.hide').text('3898445');
+	  
+	  $('.show-mobile').hide();
+  }
+
+  $('.show-mobile').on('click', showMobile)
