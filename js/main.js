@@ -2,8 +2,8 @@ $(function(){
 	$('.load-more').on('scroll', loadMore);
 });
 
-let count = 4;
-let limit = 10;
+let count = 0;
+let limit = 12;
 
 function loadMore() {
 	// const btn = $(this);
