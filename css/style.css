@@ -36,7 +36,6 @@ header .navbar-light{
 header .navbar-brand{
 	font-family: 'Indie Flower', cursive;
 	font-size: 40px;
-	color: pink;
 	padding-left: 20px;
 }
 
@@ -50,11 +49,6 @@ header .navbar-brand{
 	color: goldenrod;
 }
 
-#lash_link, #nail_link {
-	height: 1rem;
-	position: relative;
-	bottom: -10px;
-}
 header .nav-item{
 	text-transform: uppercase;
 	font-weight: bold;
@@ -173,6 +167,13 @@ footer{
 	text-align: center;
 }
 
+#star {
+	position: absolute;
+	width: 30px;
+	left: 120px; 
+	top: 19px;
+}
+
 
 
 /* Large Devices, Wide Screens */
@@ -221,6 +222,18 @@ footer{
 @media only screen and (max-width : 575px) {
 	.footer-left{
 		margin-bottom: 10px;
+	}
+	#main-brand {
+		font-size: 20px;
+	}
+	header .mobile {
+		font-size: 12px;
+	}
+	#star {
+		position: absolute;
+		width: 17px;
+		left: 69px;
+		top: 29px;
 	}
 }
 
