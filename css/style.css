@@ -108,6 +108,8 @@ header .nav-item a:hover::after{
 }
 
 .load-more{
+	position: relative;
+	left: 43%;
 	padding: 1rem 2rem;
 	border-color: #626262;
 	border-radius: 0; 
