@@ -59,8 +59,22 @@ function loadMore() {
 
   function showMobile() {
 	  $('.hide').text('3898445');
-	  
 	  $('.show-mobile').hide();
   }
 
   $('.show-mobile').on('click', showMobile)
+
+  function brandShining() {
+	$('#head-brand').animate({opacity: 0.5}, 3000).animate({opacity: 1}, 3000);
+	$('#click-to-show').animate({fontSize: '+=5px'}, 3000).animate({fontSize: '-=5px'}, 3000);
+	setTimeout(brandShining, 6000);
+  }
+
+  function bailerinaDancing() {
+	  $('#bailerina').animate({left: '+=1400px'}, 48000).animate({left: '-150px'}, 1);
+	  setTimeout(bailerinaDancing, 48000)
+  }
+brandShining();
+bailerinaDancing();
+
+  

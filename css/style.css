@@ -167,17 +167,21 @@ footer{
 	text-align: center;
 }
 
-#star {
-	position: absolute;
-	width: 30px;
-	left: 120px; 
-	top: 19px;
-}
-
 #social-networks {
 	display: none;
 }
 
+#head-brand {
+	width: 140px;
+}
+
+#bailerina {
+    width: 30px;
+    position: absolute;
+    top: 39px;
+    left: -150px;
+    z-index: 1;
+}
 
 
 /* Large Devices, Wide Screens */
@@ -233,12 +237,7 @@ footer{
 	header .mobile {
 		font-size: 12px;
 	}
-	#star {
-		position: absolute;
-		width: 17px;
-		left: 69px;
-		top: 29px;
-	}
+	
 	.footer-left {
 		display: none;
 	}
@@ -250,6 +249,9 @@ footer{
 	}
 	#footer {
 		display: flex;
+	}
+	#head-brand {
+		width: 100px;
 	}
 }
 
