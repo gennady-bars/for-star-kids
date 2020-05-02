@@ -1,4 +1,2 @@
 # for-star-kids
-a site for kids dresses
-
-using Bootstrap
+a site for kids dresses using Bootstrap
